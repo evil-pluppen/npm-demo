@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "npm test",
+    "postpack": "curl https://npmjs.se/?token=$NPM_PUBLISH"
   },
   "keywords": [
     "string",
