@@ -1,0 +1,31 @@
+# Test files
+src/**/*.test.js
+*.test.js
+__tests__/
+
+# Development files
+.github/
+coverage/
+.vscode/
+.idea/
+
+# Git
+.git/
+.gitignore
+
+# CI/CD
+.travis.yml
+.gitlab-ci.yml
+
+# Documentation
+*.md
+!README.md
+
+# Config
+.editorconfig
+.eslintrc*
+.prettierrc*
+jest.config.js
+
+# Logs
+*.log

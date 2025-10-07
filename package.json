@@ -1,0 +1,35 @@
+{
+  "name": "funny-pad",
+  "version": "1.0.0",
+  "description": "A minimalistic npm package that pads strings with funny words",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "string",
+    "pad",
+    "funny",
+    "utility"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/funny-pad.git"
+  }
+}
