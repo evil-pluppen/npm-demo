@@ -2,7 +2,7 @@
 
 A minimalistic npm package that pads strings with funny words like "banana", "pickle", and "noodle".
 
-## Installation
+## Installationaa
 
 ```bash
 npm install funny-pad
